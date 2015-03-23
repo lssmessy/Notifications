@@ -47,7 +47,7 @@ public class MainActivity extends ActionBarActivity {
         AlertDialog.Builder alertDialog=new AlertDialog.Builder(MainActivity.this);
         alertDialog.setTitle("Whatsnext");
         alertDialog.setMessage("This is the \"Most\" common dialog!");
-        alertDialog.setCancelable(false);
+        //alertDialog.setCancelable(false);
         alertDialog.setPositiveButton("Done",new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {
